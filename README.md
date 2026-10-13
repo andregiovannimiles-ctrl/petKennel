@@ -4,7 +4,7 @@ A small React app that shows a list of pets. Each pet card shows the pet's name 
 
 ## Demo
 
-![Pet Kennel screenshot](screenshot.png2)
+![Pet Kennel screenshot](screenshot.png)
 
 ## Installation
 
