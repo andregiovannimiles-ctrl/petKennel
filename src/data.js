@@ -1,14 +1,24 @@
-export const initialData = [
+const pets = [
   {
     id: 1,
-    name: "Baby Yoda",
-    status: "Hungry",
-    image: "https://some-url.com/sad-yoda.jpg"
+    name: "Salem",
+    imageIndex: 0,
+    images: [
+      { status: "happy", url: "/biscuit-happy.jpg" },
+      { status: "angry", url: "/biscuit-angry.jpg" },
+      { status: "sleeping", url: "/biscuit-sleeping.jpg" },
+    ],
   },
   {
     id: 2,
-    name: "Mandalorian",
-    status: "Lost",
-    image: "https://some-url.com/lost-mando.jpg"
-  }
+    name: "Simba",
+    imageIndex: 0,
+    images: [
+      { status: "sleeping", url: "/luna-sleeping.jpg" },
+      { status: "happy", url: "/luna-happy.jpg" },
+      { status: "angry", url: "/luna-angry.jpg" },
+    ],
+  },
 ];
+
+export default pets;
